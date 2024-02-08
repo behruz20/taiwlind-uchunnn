@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Roboto;
+    }
+</style>
+
+<body class="bg-[#121214]">
+    <header class="flex items-center justify-between py-[20px] px-[20px]">
+        <div class="flex gap-[29px] items-center">
+            <img class="w-[97px] h-[30px]" src="./assets/icons/IMAGE.png" alt="">
+            <nav>
+                <ul class="flex gap-[20px]">
+                    <li><a class="text-[#A6A8AD] hover:text-red-600 font-roboto" href="#">Sounds</a></li>
+                    <li><a class="text-[#A6A8AD] hover:text-red-600 font-roboto" href="#">Skills</a></li>
+                    <li><a class="text-[#A6A8AD] hover:text-red-600 font-roboto" href="#">Plugins</a></li>
+                    <li><a class="text-[#A6A8AD] hover:text-red-600 font-roboto" href="#">Studio</a></li>
+                    <li><a class="text-[#A6A8AD] hover:text-red-600 font-roboto" href="#">Community</a></li>
+                    <li><a class="text-[#A6A8AD] hover:text-red-600 font-roboto" href="#">Blog</a></li>
+                    <li><a class="text-[#A6A8AD] hover:text-red-600 font-roboto" href="#">Pricing</a></li>
+                </ul>
+            </nav>
+        </div>
+        <button class="bg-white w-[95px] h-[35px] rounded-[30px] mx-[85px] hover:bg-blue-800 hover:text-white">
+            Sign up
+        </button>
+    </header>
+    <main>
+        <section class="w-[100%] "
+            style="background-image: url('./assets/img/IMAGE\ \(1\).png'); background-size: cover;">
+            <div class="py-[90px] px-[48px]">
+                <h1 class="text-[#FFFFFF] font-roboto text-[72px] w-[500px]">
+                    Step into the producer’s playground
+                </h1>
+                <p class="text-[#FFFFFF] font-roboto text-[20px] w-[412px] py-[20px]">
+                    Explore the world’s best sample library and an unmatched marketplace of plugins and DAWs.
+                </p>
+                <button class="text-[#FFFFFF] font-roboto w-[125px] h-[56px] bg-[#0033FF] rounded-[8px] my-[44px]">
+                    Try free
+                </button>
+            </div>
+        </section>
+        <section class="bg-[#121214] w-[100%] ">
+            <div class="flex justify-center items-center">
+                <p class="text-[28px] font-roboto text-[#FFFFFF] my-[30px]">
+                    About Catalog
+                </p>
+            </div>
+            <div class="flex justify-center gap-[83px]">
+                <div data-aos="fade-right" class="my-[205px] mx-[48px]">
+                    <p class="text-[40px] font-roboto text-[#FFFFFF]">
+                        A catalog so deep, it’s dangerous.
+                    </p>
+                    <p class="text-[20px] text-[#FFFFFF] font-roboto w-[374px] my-[12px]">
+                        Expertly created and curated samples in any style imaginable. Start swimming in sound.
+                    </p>
+                    <button
+                        class="text-[16px] items-center bg-[#0033FF] rounded-[8px] text-[#FFFFFF] w-[159px] h-[39px] my-[18px]">
+                        Explore Sounds
+                    </button>
+                </div>
+                <div data-aos="fade-left">
+                    <img class="my-[78px] mx-[48px]" src="./assets/img/IMAGE (2).png" alt="">
+                </div>
+            </div>
+            <div class="flex justify-center gap-[83px]">
+                <div data-aos="fade-right">
+                    <img class=" mx-[12px]" src="./assets/img/IMAGE (3).png" alt="">
+                </div>
+                <div data-aos="fade-left" class="my-[125px] mx-[48px]">
+                    <p class="text-[40px] font-roboto text-[#FFFFFF]">
+                        A catalog so deep, it’s dangerous.
+                    </p>
+                    <p class="text-[20px] text-[#FFFFFF] font-roboto w-[374px] my-[12px]">
+                        Expertly created and curated samples in any style imaginable. Start swimming in sound.
+                    </p>
+                    <button
+                        class="text-[16px] items-center bg-[#0033FF] rounded-[8px] text-[#FFFFFF] w-[159px] h-[39px] my-[18px]">
+                        Explore Sounds
+                    </button>
+                </div>
+            </div>
+            <div class="gap-[10px] flex justify-center my-[100px]">
+                <div class="bg-[#F8F8F8] w-[381px] h-[500px] rounded-[8px]">
+                    <img class="py-[32px] px-[60px]" src="./assets/img/IMAGE (4).png" alt="">
+                    <p class="text-[#000000] text-[20px] font-roboto w-[340px] px-[60px]">
+                        I can always find what I’m looking for on Splice, whether it’s the exact sound I want or just a
+                        bit of inspiration.
+                    </p>
+                    <img class="py-[16px] px-[60px]" src="./assets/img/Andrew Huang.png" alt="">
+                </div>
+                <div class="bg-[#F8F8F8] w-[381px] h-[500px] rounded-[8px]">
+                    <img class="py-[32px] px-[60px]" src="./assets/img/IMAGE (4).png" alt="">
+                    <p class="text-[#000000] text-[20px] font-roboto w-[340px] px-[60px]">
+                        I can always find what I’m looking for on Splice, whether it’s the exact sound I want or just a
+                        bit of inspiration.
+                    </p>
+                    <img class="py-[16px] px-[60px]" src="./assets/img/Andrew Huang.png" alt="">
+                </div>
+                <div class="bg-[#F8F8F8] w-[381px] h-[500px] rounded-[8px]">
+                    <img class="py-[32px] px-[60px]" src="./assets/img/IMAGE (4).png" alt="">
+                    <p class="text-[#000000] text-[20px] font-roboto w-[340px] px-[60px]">
+                        I can always find what I’m looking for on Splice, whether it’s the exact sound I want or just a
+                        bit of inspiration.
+                    </p>
+                    <img class="py-[16px] px-[60px]" src="./assets/img/Andrew Huang.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#344346] w-[100%] h-[88px] flex gap-[24px] items-center">
+        <div>
+            <p class="mx-[48px] text-[#A6A8AD]">
+                © 2022 Splice.com All Rights Reserved
+            </p>
+        </div>
+        <nav>
+            <ul class="flex gap-[24px]">
+                <li class="text-[#A6A8AD]  hover:text-red-600 font-roboto">
+                    <a href="">Terms of Use</a>
+                </li>
+                <li class="text-[#A6A8AD]  hover:text-red-600 font-roboto">
+                    <a href="">Privacy Policy</a>
+                </li>
+                <li class="text-[#A6A8AD]  hover:text-red-600 font-roboto">
+                    <a href="">Jobs</a>
+                </li>
+                <li class="text-[#A6A8AD] hover:text-red-600 font-roboto">
+                    <a href="">Contact</a>
+                </li>
+                <li class="text-[#A6A8AD] hover:text-red-600 font-roboto">
+                    <a href="">Help</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
